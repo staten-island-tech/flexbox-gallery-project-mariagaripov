@@ -1,27 +1,24 @@
+body,
 html,
-body .body * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font: 62.5%;
-  background-color: plum;
 }
-.container-1 {
-  font-size: 30px;
+body {
+  background-color: powderblue;
+}
+.gallery {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
   flex-wrap: wrap;
-  border: 1px;
-  padding: 10px;
+  justify-content: space-between;
+  margin: 3rem auto;
+  width: 90vw;
 }
-h2 {
-  margin: 1rem;
-}
-.child-1 {
-  width: 28%;
-}
-.child-2 {
-}
-.child-3 {
+.gallery-card {
+  width: 30%;
+  background-color: cadetblue;
+  height: 30rem;
+  margin: 30px auto;
 }
